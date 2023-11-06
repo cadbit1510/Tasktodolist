@@ -42,7 +42,7 @@ export const TodoWrapperLocalStorage = () => {
     }
   return (
     <div className='TodoWrapper'>
-        <h1>Task Todo List!</h1>
+        <h1>Task Todo</h1>
         <TodoForm addTodo={addTodo} />
         {todos.map((todo, index) => (
             todo.isEditing ? (
